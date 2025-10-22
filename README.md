@@ -1,4 +1,5 @@
 ChatGPT Clone 🤖
+<img width="1599" height="853" alt="image" src="https://github.com/user-attachments/assets/8f1aa715-54e6-4524-942a-1f3c65ddb903" />
 
 A simple ChatGPT-style web app powered by Puter.js as the backend.
 This project demonstrates how to build a lightweight conversational AI interface with a minimal setup.
