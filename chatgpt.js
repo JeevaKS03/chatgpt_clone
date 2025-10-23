@@ -8,8 +8,9 @@ function handlesubmit(){
         puter.ai.chat(input,{
         model: 'gpt-5-nano',
         }).then((data)=>{
-        console.log(data.message.content)
-        content_ele.innerHTML+=`<br><br><h4>ChatGPT:</h4>${data.message.content}`;
+        //console.log(data.message.content)
+        content_ele.innerHTML+=`<br><br><h4>ChatGPT:</h4>${marked.parse(data.message.content)}`;
         });
     },1000)
 }
+
