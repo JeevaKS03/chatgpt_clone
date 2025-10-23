@@ -27,6 +27,8 @@ body{
     margin-left: 26%;
     border-radius: 15px;
     overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 .input{
     height: 70px;
@@ -60,3 +62,4 @@ body{
     border:1px solid #1d1d1d;
 
 }
+
